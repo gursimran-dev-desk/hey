@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+.logo {
+    font-weight: 700;
+    @include rem(font-size,
+    4rem);
+    color: $white;
+    @include rem(margin,
+    0 10px 10px 0);
+}
+
+.subtitle {
+    @include rem(font-size,
+    2rem);
+    color: $white;
+}
